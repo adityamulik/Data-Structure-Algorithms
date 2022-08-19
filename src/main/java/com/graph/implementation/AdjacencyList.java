@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.linkedlists.implementation.SinglyLinkedList;
 
-public class AdjancencyList {
+public class AdjacencyList {
     /*
      * Adjacency List representation is used with an int data and
      * it's associated edges made up of a SinglyLinkedList Array
@@ -14,7 +14,7 @@ public class AdjancencyList {
     private SinglyLinkedList[] edges;
     private int vertexCount;
 
-    public AdjancencyList(int vertexCount) {
+    public AdjacencyList(int vertexCount) {
         this.vertexCount = vertexCount;
         this.vertices = new ArrayList<>();
         this.edges = new SinglyLinkedList[vertexCount];
